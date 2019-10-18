@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.SelectFriendActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Melt"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorMelt"
+        android:fontFamily="@font/nanumsquareb"
+        android:textSize="25dp"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/selectFriendActivity_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="채팅방 만들기"
+        android:id="@+id/selectFriendActivity_button"
+        android:background="@drawable/button_melt"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_gravity="center"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        />
+
+
+</LinearLayout>

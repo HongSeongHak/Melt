@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="MainActivity">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Melt"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:layout_alignParentTop="true"
+            android:background="@color/colorMelt"
+            android:fontFamily="@font/nanumsquareb"
+            android:textSize="25dp"
+            />
+
+    <FrameLayout
+        android:id="@+id/mainactivity_framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="615dp"
+        android:layout_above="@+id/mainactivity_bottomnavigationview"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="0dp" />
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/mainactivity_bottomnavigationview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        app:itemBackground="@color/colorMelt"
+        app:itemIconTint="@android:color/white"
+        app:itemTextColor="@android:color/white"
+        app:layout_behavior="tech.thdev.app.view.BottomNavigationBehavior"
+        app:menu="@menu/bottom_navigation_main">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "737939178123",
+    "firebase_url": "https://melt-2f873.firebaseio.com",
+    "project_id": "melt-2f873",
+    "storage_bucket": "melt-2f873.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:737939178123:android:450ca8c844d2e995c50a8e",
+        "android_client_info": {
+          "package_name": "com.jeiu.melt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "737939178123-e2vvgvlk2rpv34rgethk8qut1smuo3sg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHX7XyXJ4iUuayGAmfizVahQNMvi_6v8Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "737939178123-e2vvgvlk2rpv34rgethk8qut1smuo3sg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
